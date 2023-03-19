@@ -1,10 +1,22 @@
 ﻿( function($) {
     'use strict';
   
-    // var myImage = document.getElementById('carousel-item');
-    // myImage.addEventListener('animationend', function() {
-    //   myImage.style.animation = 'none';
-    // });
+    // $('.carousel').carousel({
+    //     interval: 5000,
+    //     wrap: true
+    //   }).on('slide.bs.carousel', function (e) {
+    //     e.preventDefault();
+    //     var slideDirection = e.direction;
+    //     var activeSlide = $(this).find('.active')[0];
+    //     var nextSlide = $(e.relatedTarget)[0];
+    //     $(nextSlide).addClass('temp-hide');
+    //     setTimeout(function() {
+    //       $(activeSlide).removeClass('temp-hide');
+    //       $(nextSlide).removeClass('temp-hide');
+    //       $(activeSlide).removeClass('active');
+    //       $(nextSlide).addClass('active');
+    //     }, 600);
+    //   });
      /*-------------------------------------------------------------------------------
         Detect mobile device 
       -------------------------------------------------------------------------------*/

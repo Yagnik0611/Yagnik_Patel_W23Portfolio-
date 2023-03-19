@@ -86,6 +86,9 @@
 /*-------------------------------------------------------------------------------
  1. Global
 -------------------------------------------------------------------------------*/
+.carousel-item {
+  transition-duration: 3s;
+}
 
 .carousel-caption {
   display: flex;
@@ -101,7 +104,6 @@
 .carousel-item {
   height: 100vh;
   min-height: 350px;
-  animation: zoom-in 2s ease-in-out;
  
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -110,17 +112,7 @@
   background-size: cover;
 }
 
-@keyframes zoom-in {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.03);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+
 
 @import url('bootstrap.css');
 @import url('font-awesome.min.css');
